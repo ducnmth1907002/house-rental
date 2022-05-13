@@ -17,7 +17,7 @@
         transition: 1s;
         height: 200px;
         padding: 20px;
-        margin: 20px 33px; 
+        margin: 20px 33px;
     }
     .number{
         color:azure;
@@ -29,7 +29,7 @@
     .col-md-3:hover{
         background: rgb(79, 99, 143)
     }
- </style> 
+ </style>
 
 
 
@@ -37,7 +37,7 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 welcome text-center my-4">
-            <h1 class="name">Welcome to Renter Panel - <span style="padding: 6px;color:white;background:grey;"> {{ Auth::user()->name }}</span></h1>  
+            <h1 class="name">Welcome to Renter Panel </h1>
         </div>
     </div>
     <div class="row text-center boxs">
@@ -78,6 +78,6 @@
         time: 2000
     });
 </script>
-    
+
 @endsection
 
